@@ -6,9 +6,9 @@ frontend:
         - yarn install
     build:
       commands:
-        - yarn build
+        - yarn generate
   artifacts:
-    baseDirectory: .nuxt
+    baseDirectory: dist
     files:
       - '**/*'
   cache:
